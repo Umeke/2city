@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Mac OS
+.DS_Store
+
+# Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+.Python
+media/
+staticfiles/
+db.sqlite3
+
+# If you’re using pytest:
+.cache/
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# VSCode
+.vscode/
+
+# Idea / PyCharm
+.idea/
+
+# Migrations (опционально, если не хотите хранить миграции в репе — на ваше усмотрение)
+# */migrations/__pycache__/
+# */migrations/*.pyc
+# */migrations/*.py
+
+# Other
+*.swp
